@@ -1,0 +1,15 @@
+{
+  "name": "crutch/hash-native",
+  "type": "library",
+  "description": "Native PHP hash implementation",
+  "license": ["MIT"],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "crutch/hash": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Crutch\\NativeHash\\": "src/"
+    }
+  }
+}
